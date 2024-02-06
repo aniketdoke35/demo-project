@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c7c3c3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    background-color: #fff;
+    width: 700px;
+   
+    margin: 0 auto;
+}
+.col1{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px 10px 20px;
+}
+.col1 img{
+    width: 200px;
+}
+
+.col2 h1{
+    font-size: 35px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0 10px 0;
+}
+
+.col2 span{
+    color: orange;
+}
+
+.banner img {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    
+}
+
+.des p{
+    margin-top: 20px;
+    font-size: 19px;
+    padding: 0 20px 0 20px;
+}
+
+.des ul{
+    padding: 20px 0 0 80px;
+    font-size: 19px;
+}
+
+.des span{
+    color: red;
+
+}
+
+.des span:hover{
+    cursor: pointer;
+}
+
+.button{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.button button{
+    padding: 16px 62px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border-radius: 4px;
+    font-size: 18px;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
+
+.icon i{
+    font-size: 35px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.icon i:hover{
+    cursor: pointer;
+}
+
+.demo {
+    font-size: 19px;
+    border-top:2px solid rgb(155, 150, 150);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.demo span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
